@@ -93,7 +93,7 @@ fi
 
 if [ $apaan = "B" ] || [ $apaan = "b" ]
 then
-python2 B-DORK.py
+python2 Dork.py
 echo 
 echo $cyan"["$yellow"B"$cyan"]"$white"back "$cyan"["$yellow"Q"$cyan"]"$white"Quit"
 read -p "[B/Q] : " back
